@@ -14,6 +14,17 @@
 		64706CFE1F944D020068DCE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64706CFC1F944D020068DCE2 /* LaunchScreen.storyboard */; };
 		64706D091F944D020068DCE2 /* Gradient_DesendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64706D081F944D020068DCE2 /* Gradient_DesendTests.swift */; };
 		64706D141F944D020068DCE2 /* Gradient_DesendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64706D131F944D020068DCE2 /* Gradient_DesendUITests.swift */; };
+		64706D221F944D210068DCE2 /* GradientDesend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64706D211F944D210068DCE2 /* GradientDesend.swift */; };
+		64EEB7161FA6CE6700A2CBAC /* Reader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EEB7151FA6CE6700A2CBAC /* Reader.swift */; };
+		64EEB7181FA6D0D900A2CBAC /* DataPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EEB7171FA6D0D900A2CBAC /* DataPresentation.swift */; };
+		64EEB71A1FA7097500A2CBAC /* Normalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EEB7191FA7097500A2CBAC /* Normalization.swift */; };
+		64EEB71C1FA7269D00A2CBAC /* NewtonMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EEB71B1FA7269D00A2CBAC /* NewtonMethod.swift */; };
+		64EEB71E1FA73AF200A2CBAC /* CostFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EEB71D1FA73AF200A2CBAC /* CostFunction.swift */; };
+		64EEB7201FA818AE00A2CBAC /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EEB71F1FA818AE00A2CBAC /* Node.swift */; };
+		64EEB7221FA81CCA00A2CBAC /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EEB7211FA81CCA00A2CBAC /* Strategy.swift */; };
+		64EEB7241FA8211300A2CBAC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EEB7231FA8211300A2CBAC /* Model.swift */; };
+		64EEB72A1FAB3A9F00A2CBAC /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EEB7291FAB3A9F00A2CBAC /* Algorithm.swift */; };
+		64EEB72C1FAC477C00A2CBAC /* LinearRegression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EEB72B1FAC477C00A2CBAC /* LinearRegression.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,17 @@
 		64706D0F1F944D020068DCE2 /* Gradient DesendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gradient DesendUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64706D131F944D020068DCE2 /* Gradient_DesendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient_DesendUITests.swift; sourceTree = "<group>"; };
 		64706D151F944D020068DCE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64706D211F944D210068DCE2 /* GradientDesend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientDesend.swift; sourceTree = "<group>"; };
+		64EEB7151FA6CE6700A2CBAC /* Reader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reader.swift; sourceTree = "<group>"; };
+		64EEB7171FA6D0D900A2CBAC /* DataPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPresentation.swift; sourceTree = "<group>"; };
+		64EEB7191FA7097500A2CBAC /* Normalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Normalization.swift; sourceTree = "<group>"; };
+		64EEB71B1FA7269D00A2CBAC /* NewtonMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewtonMethod.swift; sourceTree = "<group>"; };
+		64EEB71D1FA73AF200A2CBAC /* CostFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostFunction.swift; sourceTree = "<group>"; };
+		64EEB71F1FA818AE00A2CBAC /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		64EEB7211FA81CCA00A2CBAC /* Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
+		64EEB7231FA8211300A2CBAC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		64EEB7291FAB3A9F00A2CBAC /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
+		64EEB72B1FAC477C00A2CBAC /* LinearRegression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearRegression.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +121,17 @@
 			children = (
 				64706CF31F944D020068DCE2 /* AppDelegate.swift */,
 				64706CF51F944D020068DCE2 /* ViewController.swift */,
+				64706D211F944D210068DCE2 /* GradientDesend.swift */,
+				64EEB71B1FA7269D00A2CBAC /* NewtonMethod.swift */,
+				64EEB71D1FA73AF200A2CBAC /* CostFunction.swift */,
+				64EEB7211FA81CCA00A2CBAC /* Strategy.swift */,
+				64EEB7291FAB3A9F00A2CBAC /* Algorithm.swift */,
+				64EEB7231FA8211300A2CBAC /* Model.swift */,
+				64EEB7151FA6CE6700A2CBAC /* Reader.swift */,
+				64EEB7171FA6D0D900A2CBAC /* DataPresentation.swift */,
+				64EEB7191FA7097500A2CBAC /* Normalization.swift */,
+				64EEB72B1FAC477C00A2CBAC /* LinearRegression.swift */,
+				64EEB71F1FA818AE00A2CBAC /* Node.swift */,
 				64706CF71F944D020068DCE2 /* Main.storyboard */,
 				64706CFA1F944D020068DCE2 /* Assets.xcassets */,
 				64706CFC1F944D020068DCE2 /* LaunchScreen.storyboard */,
@@ -262,8 +295,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64EEB7221FA81CCA00A2CBAC /* Strategy.swift in Sources */,
+				64EEB72A1FAB3A9F00A2CBAC /* Algorithm.swift in Sources */,
 				64706CF61F944D020068DCE2 /* ViewController.swift in Sources */,
+				64706D221F944D210068DCE2 /* GradientDesend.swift in Sources */,
+				64EEB7181FA6D0D900A2CBAC /* DataPresentation.swift in Sources */,
+				64EEB7201FA818AE00A2CBAC /* Node.swift in Sources */,
+				64EEB71C1FA7269D00A2CBAC /* NewtonMethod.swift in Sources */,
+				64EEB71E1FA73AF200A2CBAC /* CostFunction.swift in Sources */,
+				64EEB7161FA6CE6700A2CBAC /* Reader.swift in Sources */,
+				64EEB7241FA8211300A2CBAC /* Model.swift in Sources */,
+				64EEB72C1FAC477C00A2CBAC /* LinearRegression.swift in Sources */,
 				64706CF41F944D020068DCE2 /* AppDelegate.swift in Sources */,
+				64EEB71A1FA7097500A2CBAC /* Normalization.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +556,7 @@
 				64706D1A1F944D020068DCE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64706D1B1F944D020068DCE2 /* Build configuration list for PBXNativeTarget "Gradient DesendTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +565,7 @@
 				64706D1D1F944D020068DCE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64706D1E1F944D020068DCE2 /* Build configuration list for PBXNativeTarget "Gradient DesendUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +574,7 @@
 				64706D201F944D020068DCE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
